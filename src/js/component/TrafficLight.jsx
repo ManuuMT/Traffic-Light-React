@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 
 const TrafficLight = () => {
-	// Hooks
 	const [colour, setColour] = useState("");
-
-	// Methods
 	const changeColour = myColour => {
 		setColour(myColour);
 	};
